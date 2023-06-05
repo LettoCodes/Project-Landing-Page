@@ -73,7 +73,7 @@ a {
 }
 
 .hero-img {
-    width: 900px;
+    width: 600px;
     height: auto;
 }
 
@@ -83,7 +83,7 @@ img {
 
 .information-title {
     text-align: center;
-    padding: 10px 15%;
+    padding: 20px 15%;
 }
 
 .information-title h2 {
@@ -96,8 +96,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 15% 80px;
-    gap: 50px;
+    padding: 0 15% 100px;
+    gap: 80px;
 }
 
 .information-items {
@@ -117,4 +117,28 @@ img {
 .information-text {
     font-size: 18px;
     color: #1f2937;
+}
+
+.testimonial-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 15%;
+    gap: 10px;
+}
+
+.testimonial, .author {
+    color: #1f2937;
+}
+
+.testimonial {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
 }
